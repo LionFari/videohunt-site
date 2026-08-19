@@ -5,184 +5,178 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="VideoHunt erkennt öffentlich erreichbare, nicht DRM-geschützte Videos und Streams und lädt sie direkt auf dein Android-Gerät.">
   <meta name="theme-color" content="#ffffff">
-  <meta name="robots" content="index,follow">
   <title>VideoHunt – One app. All videos.</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="home.css?v=20260819-1">
 </head>
-<body class="home-page">
-  <header class="site-header">
-    <nav class="site-nav" aria-label="Hauptnavigation">
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
       <a class="brand" href="./" aria-label="VideoHunt Startseite">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img">
-            <path d="M13 10.5c0-2 2.2-3.2 3.9-2.1l17.9 11.4c1.6 1 1.6 3.4 0 4.4L16.9 35.6c-1.7 1.1-3.9-.1-3.9-2.1v-23Z" fill="currentColor"/>
-            <path d="M28.6 26.2v8.1h-4.2l7.6 7.2 7.6-7.2h-4.2v-8.1h-6.8Z" fill="currentColor"/>
-          </svg>
-        </span>
-        <span class="brand-word"><span class="brand-video">Video</span><span class="brand-hunt">Hunt</span></span>
+        <span class="brand-symbol" aria-hidden="true"><span class="play">▶</span><span class="down">↓</span></span>
+        <span class="brand-name"><span>Video</span><strong>Hunt</strong></span>
       </a>
-
-      <div class="links">
-        <a class="nav-link active" href="./">Start</a>
-        <a class="nav-link" href="#features">Funktionen</a>
-        <a class="nav-link" href="datenschutz.html">Datenschutz</a>
-        <a class="nav-link" href="impressum.html">Impressum</a>
-        <a class="nav-link" href="kontakt.html">Kontakt</a>
-      </div>
-    </nav>
+      <nav class="navlinks" aria-label="Hauptnavigation">
+        <a class="active" href="./">Start</a>
+        <a href="#funktionen">Funktionen</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="home-main">
-    <section class="hero" aria-labelledby="hero-title">
+  <main>
+    <section class="hero wrap">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-dot"></span> Android App</div>
-        <h1 id="hero-title"><span>Video</span><strong>Hunt</strong></h1>
+        <span class="eyebrow">ANDROID APP</span>
+        <h1><span>Video</span><strong>Hunt</strong></h1>
         <p class="tagline">One app. All videos.</p>
-        <p class="hero-text">
-          Öffentliche, nicht DRM-geschützte Videos und Streams erkennen, auswählen und direkt auf dein Android-Gerät herunterladen.
+        <p class="lead">
+          Öffentliche, nicht DRM-geschützte Videos und Streams erkennen,
+          auswählen und direkt auf dein Android-Gerät herunterladen.
         </p>
 
-        <div class="hero-actions">
-          <a class="button button-primary" href="#features">Funktionen ansehen</a>
-          <a class="button button-secondary" href="datenschutz.html">Datenschutz</a>
+        <div class="actions">
+          <a class="btn primary" href="#funktionen">Funktionen ansehen</a>
+          <a class="btn secondary" href="datenschutz.html">Datenschutz</a>
         </div>
 
-        <div class="trust-row" aria-label="VideoHunt Eigenschaften">
-          <span>Ohne Nutzerkonto</span>
+        <div class="trust">
+          <span>Kein Nutzerkonto</span>
           <span>Keine Werbung</span>
           <span>Lokale Verarbeitung</span>
         </div>
       </div>
 
-      <div class="hero-visual" aria-hidden="true">
-        <div class="visual-glow"></div>
-        <div class="app-shell">
-          <div class="app-topbar">
-            <div class="app-logo-mini"><span>Video</span><strong>Hunt</strong></div>
-            <span class="status-dot"></span>
+      <div class="preview" aria-label="Vereinfachte Vorschau der VideoHunt App">
+        <div class="phone">
+          <div class="phone-head">
+            <div class="mini-brand"><span>Video</span><strong>Hunt</strong></div>
+            <span class="indicator"></span>
           </div>
-          <div class="app-panel">
-            <div class="app-title">One app. All videos.</div>
-            <div class="url-field">
-              <span class="link-symbol">↗</span>
-              <span class="url-placeholder">Video- oder Webseiten-URL</span>
-              <span class="go-button">→</span>
+
+          <div class="screen-card">
+            <p class="screen-tagline">One app. All videos.</p>
+
+            <div class="urlbox">
+              <span class="link">↗</span>
+              <span class="placeholder">Video- oder Webseiten-URL</span>
+              <span class="arrow">→</span>
             </div>
-            <div class="platform-label">Unterstützte Plattformen</div>
-            <div class="platform-grid">
-              <span>Instagram</span>
-              <span>TikTok</span>
-              <span>Facebook</span>
-              <span>Vimeo</span>
-              <span>Reddit</span>
-              <span>X</span>
+
+            <p class="label">Unterstützte Plattformen</p>
+            <div class="platform-mini">
+              <span>Instagram</span><span>TikTok</span><span>Facebook</span>
+              <span>Vimeo</span><span>Reddit</span><span>X</span>
             </div>
           </div>
-          <div class="app-dock">
-            <span class="dock-active">Start</span>
+
+          <div class="dock">
+            <span class="selected">Start</span>
             <span>Browser</span>
             <span>Downloads</span>
-            <span>Einstellungen</span>
+            <span>Settings</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="platforms" aria-labelledby="platforms-title">
-      <div class="section-heading compact-heading">
-        <p class="section-kicker">Plattformen</p>
-        <h2 id="platforms-title">Für das offene Web gebaut</h2>
+    <section class="platform-band">
+      <div class="wrap">
+        <div class="section-title">
+          <span class="kicker">PLATTFORMEN</span>
+          <h2>Für das offene Web gebaut</h2>
+          <p>VideoHunt erkennt Medien auf unterstützten Plattformen und weiteren öffentlich erreichbaren Webseiten im integrierten Browser.</p>
+        </div>
+
+        <div class="platforms">
+          <div>Instagram</div>
+          <div>TikTok</div>
+          <div>Facebook</div>
+          <div>Vimeo</div>
+          <div>Reddit</div>
+          <div>X</div>
+        </div>
       </div>
-      <div class="platform-strip" aria-label="Unterstützte Plattformen">
-        <span>Instagram</span>
-        <span>TikTok</span>
-        <span>Facebook</span>
-        <span>Vimeo</span>
-        <span>Reddit</span>
-        <span>X</span>
-      </div>
-      <p class="platform-note">Zusätzlich kann VideoHunt Medien auf weiteren öffentlich erreichbaren Webseiten im integrierten Browser erkennen.</p>
     </section>
 
-    <section class="features-section" id="features" aria-labelledby="features-title">
-      <div class="section-heading">
-        <p class="section-kicker">Funktionen</p>
-        <h2 id="features-title">Erkennen. Auswählen. Herunterladen.</h2>
-        <p>VideoHunt zeigt dir erkannte Medien transparent an – du entscheidest, was gespeichert wird.</p>
+    <section class="features wrap" id="funktionen">
+      <div class="section-title center">
+        <span class="kicker">FUNKTIONEN</span>
+        <h2>Erkennen. Auswählen. Herunterladen.</h2>
+        <p>VideoHunt zeigt erkannte Medien transparent an. Du entscheidest, was gespeichert wird.</p>
       </div>
 
       <div class="feature-grid">
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">01</div>
+        <article>
+          <span class="number">01</span>
           <h3>Medien erkennen</h3>
           <p>Direkte MP4/WebM-Dateien sowie HLS- und DASH-Streams im integrierten Browser erkennen.</p>
         </article>
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">02</div>
+        <article>
+          <span class="number">02</span>
           <h3>Qualität auswählen</h3>
-          <p>Mehrere gefundene Varianten bleiben im Katalog sichtbar. Du wählst die gewünschte Qualität oder den passenden Stream.</p>
+          <p>Mehrere gefundene Varianten bleiben sichtbar. Du wählst die gewünschte Qualität oder den passenden Stream.</p>
         </article>
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">03</div>
+        <article>
+          <span class="number">03</span>
           <h3>Sicher fortsetzen</h3>
-          <p>Downloads können pausieren, auf WLAN warten und bei unterstützten Medien zuverlässig fortgesetzt werden.</p>
+          <p>Downloads pausieren, auf WLAN warten und bei unterstützten Medien zuverlässig fortsetzen.</p>
         </article>
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">04</div>
+        <article>
+          <span class="number">04</span>
           <h3>Lokal auf dem Gerät</h3>
-          <p>Kein VideoHunt-Konto, kein eigenes VideoHunt-Backend, keine Werbe- oder Analyse-SDKs.</p>
+          <p>Kein VideoHunt-Konto, kein eigenes Backend und keine Werbe- oder Analytics-SDKs.</p>
         </article>
       </div>
     </section>
 
-    <section class="format-section" aria-labelledby="formats-title">
-      <div class="format-copy">
-        <p class="section-kicker">Medienpfade</p>
-        <h2 id="formats-title">Mehr als nur direkte Videodateien</h2>
-        <p>VideoHunt kann unterschiedliche öffentlich erreichbare Medienpfade verarbeiten und hält die erkannte Auswahl nachvollziehbar.</p>
+    <section class="formats wrap">
+      <div>
+        <span class="kicker light">MEDIENPFADE</span>
+        <h2>Mehr als nur direkte Videodateien</h2>
+        <p>VideoHunt unterstützt verschiedene öffentlich erreichbare Medienpfade und hält die Auswahl nachvollziehbar.</p>
       </div>
-      <div class="format-list">
+      <div class="format-grid">
         <span>MP4 / WebM</span>
         <span>HLS</span>
         <span>DASH</span>
-        <span>Audio + Video Tracks</span>
+        <span>Audio + Video</span>
         <span>Qualitätsauswahl</span>
         <span>Downloadhistorie</span>
       </div>
     </section>
 
-    <section class="privacy-section" aria-labelledby="privacy-title">
-      <div class="privacy-badge" aria-hidden="true">
-        <svg viewBox="0 0 32 32"><path d="M16 3 6 7v7.2c0 6.5 4.1 12 10 14.8 5.9-2.8 10-8.3 10-14.8V7L16 3Zm0 4.2 6 2.4v4.6c0 4.5-2.5 8.5-6 10.8-3.5-2.3-6-6.3-6-10.8V9.6l6-2.4Z" fill="currentColor"/></svg>
+    <section class="privacy wrap">
+      <div class="privacy-icon" aria-hidden="true">✓</div>
+      <div>
+        <span class="kicker">PRIVATSPHÄRE</span>
+        <h2>Transparenz statt Tracking</h2>
+        <p>
+          VideoHunt kommt ohne Nutzerkonto, eigenes Backend, Werbung und Analytics-SDKs aus.
+          Details zur Datenverarbeitung findest du in der Datenschutzerklärung.
+        </p>
       </div>
-      <div class="privacy-copy">
-        <p class="section-kicker">Privatsphäre</p>
-        <h2 id="privacy-title">Transparenz statt Tracking</h2>
-        <p>VideoHunt kommt ohne eigenes Nutzerkonto, eigenes Backend, Werbung und Analytics-SDKs aus. Details zur lokalen Verarbeitung und zu Verbindungen mit besuchten Webseiten findest du in der Datenschutzerklärung.</p>
-      </div>
-      <a class="text-link" href="datenschutz.html">Datenschutzerklärung öffnen <span>→</span></a>
+      <a href="datenschutz.html">Datenschutz öffnen →</a>
     </section>
 
-    <section class="release-note" aria-label="Hinweis zur Verfügbarkeit">
+    <section class="release wrap">
       <div>
-        <p class="section-kicker">Verfügbarkeit</p>
+        <span class="kicker">VERFÜGBARKEIT</span>
         <h2>Google-Play-Veröffentlichung in Vorbereitung</h2>
-        <p>VideoHunt befindet sich aktuell in der Release-Vorbereitung. Offizielle Download-Links werden hier ergänzt, sobald die App veröffentlicht ist.</p>
+        <p>Der offizielle Download-Link wird hier ergänzt, sobald VideoHunt veröffentlicht ist.</p>
       </div>
-      <div class="play-placeholder" aria-hidden="true">
-        <span class="play-triangle">▶</span>
-        <div><small>Demnächst auf</small><strong>Google Play</strong></div>
+      <div class="play-badge">
+        <span class="play-small">▶</span>
+        <span><small>Demnächst auf</small><strong>Google Play</strong></span>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <a class="brand footer-logo" href="./"><span class="brand-video">Video</span><span class="brand-hunt">Hunt</span></a>
+  <footer>
+    <div class="wrap footer-main">
+      <div>
+        <div class="footer-brand"><span>Video</span><strong>Hunt</strong></div>
         <p>One app. All videos.</p>
       </div>
       <div class="footer-links">
@@ -191,7 +185,7 @@
         <a href="kontakt.html">Kontakt</a>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="wrap footer-bottom">
       <span>© 2026 VideoHunt</span>
       <span>Für öffentlich erreichbare, nicht DRM-geschützte Medien.</span>
     </div>
