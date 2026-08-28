@@ -1,12 +1,55 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Datenschutz | VideoHunt</title><meta name="robots" content="index,follow"><link rel="stylesheet" href="styles.css"></head>
-<body><header><nav><a class="brand" href="https://lionfari.github.io/videohunt-site/">Video<span>Hunt</span></a><div class="links"><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><a href="kontakt.html">Kontakt</a></div></nav></header><main><h1>Datenschutzerklärung</h1><p class="meta">Stand: 28.08.2026</p><div class="card"><strong>Verantwortlicher Anbieter</strong><br>Lion Mehl<br>Rebberg 7<br>73614 Schorndorf<br>Deutschland<br>E-Mail: <a href="mailto:VideoHuntDev@gmail.com">VideoHuntDev@gmail.com</a><br>Website: <a href="https://lionfari.github.io/videohunt-site">https://lionfari.github.io/videohunt-site</a><br></div>
-<h2>1. Grundprinzip</h2><p>VideoHunt besitzt kein eigenes Nutzerkonto, kein eigenes VideoHunt-Backend und keine Werbe-, Analyse- oder Tracking-SDKs. Die Kernverarbeitung findet lokal auf dem Android-Gerät statt.</p>
-<h2>2. Integrierter Browser</h2><p>Beim Öffnen einer öffentlichen Webseite stellt das Gerät direkte HTTPS-Verbindungen zu dieser Webseite und deren eingebundenen Diensten her. Deren Betreiber können technisch notwendige Verbindungsdaten wie IP-Adresse, User-Agent und dort gesetzte Cookies erhalten. VideoHunt kontrolliert den Inhalt des offenen Webs nicht. Browser-Cookies, WebStorage, Cache, Formulardaten und Verlauf werden beim Schließen des integrierten Browsers bereinigt und können zusätzlich in den Einstellungen gelöscht werden.</p>
-<h2>3. Medienerkennung</h2><p>Für eine vom Nutzer gewählte öffentliche Seite kann VideoHunt Medienadressen lokal analysieren und direkte HTTPS-Anfragen an die jeweilige Zielplattform senden. Dabei können Quell-URL, User-Agent und – soweit für dieselbe Herkunft erforderlich – Cookies oder Request-Header verwendet werden. Diese Daten werden nicht an ein VideoHunt-Backend gesendet. Nicht öffentliche Netzwerkziele werden durch lokale Zielschutzregeln blockiert. DRM/Widevine, Logins, Paywalls, Geoblocking und proprietäre Verschlüsselung werden nicht umgangen; YouTube wird nicht unterstützt.</p>
-<h2>4. Downloads und Resume-Daten</h2><p>Videos werden über Android MediaStore lokal gespeichert. Fortsetzbare Hintergrundaufträge können vorübergehend Medien-URLs, Referer, User-Agent, Cookies und Request-Header enthalten. Diese Resume-Daten liegen in noBackupFilesDir und sind mit AES-256-GCM unter Verwendung eines Android-Keystore-Schlüssels verschlüsselt. Erfolgreiche Aufgaben werden entfernt; fehlgeschlagene Aufgaben verfallen typischerweise nach höchstens 48 Stunden, fortsetzbare Aufgaben nach höchstens sieben Tagen.</p>
-<h2>5. Diagnosen</h2><p>Für eng begrenzte fehlgeschlagene Social-DASH-Fälle können redigierte lokale Diagnosearchive entstehen. Sie enthalten keine vollständigen Cookies, Tokens oder Mediendaten. Sie werden nur dann übertragen, wenn der Nutzer selbst die Android-Teilen-Funktion auswählt.</p>
-<h2>6. Berechtigungen und Sicherheit</h2><p>VideoHunt benötigt Internet-/Netzwerkstatuszugriff sowie Berechtigungen für Benachrichtigungen und Foreground Services während Downloads. Standort, Kamera, Mikrofon, Kontakte, Kalender, Telefon/SMS, Bluetooth und Werbe-ID werden nicht angefordert. Cleartext-HTTP ist deaktiviert. Android-Cloud-Backup und Geräteübertragung interner App-Daten sind deaktiviert.</p>
-<h2>7. Löschung und Aufbewahrung</h2><p>Browserdaten werden beim Schließen des integrierten Browsers bereinigt und können zusätzlich in den Einstellungen gelöscht werden. Downloadhistorie kann separat entfernt werden. Resume- und Diagnoseinformationen werden nach Abschluss bzw. nach den beschriebenen Fristen entfernt. Da VideoHunt kein eigenes Konto oder Backend betreibt, gibt es keine serverseitigen Kontodaten zu löschen.</p>
-<h2>8. Drittanbieter</h2><p>Beim Aufruf fremder Webseiten gelten deren eigene Datenschutzbestimmungen. VideoHunt ist nicht mit Instagram, TikTok, Facebook, Vimeo, Reddit, X oder anderen Zielplattformen verbunden oder von ihnen autorisiert.</p>
-<h2>9. Kontakt</h2><p>Datenschutzanfragen: <a href="mailto:VideoHuntDev@gmail.com">VideoHuntDev@gmail.com</a>.</p></main><footer>© 2026 Lion Mehl · VideoHunt</footer></body></html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzerklärung für VideoHunt.">
+  <meta name="theme-color" content="#f8f8f4">
+  <meta name="robots" content="index,follow">
+  <title>Datenschutz | VideoHunt</title>
+  <link rel="stylesheet" href="styles.css?v=20260828-2">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="VideoHunt Startseite"><span class="brand-video">Video</span><span class="brand-hunt">Hunt</span></a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="./">Start</a><a class="active" href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell legal-main">
+    <div class="legal-hero">
+      <div><p class="eyebrow">RECHTLICHES</p><h1>Datenschutz</h1><p class="lead">Transparent erklärt, welche Daten VideoHunt lokal verarbeitet und wann Verbindungen zu aufgerufenen Webseiten entstehen.</p></div>
+      <span class="meta-pill">Stand: 28.08.2026</span>
+    </div>
+
+    <div class="legal-grid">
+      <div class="content">
+        <div class="card identity-card">
+          <div class="identity-icon" aria-hidden="true">VH</div>
+          <div><strong>Verantwortlicher Anbieter</strong><br>Lion Mehl<br>Rebberg 7<br>73614 Schorndorf<br>Deutschland<br>E-Mail: <a href="mailto:VideoHuntDev@gmail.com">VideoHuntDev@gmail.com</a><br>Website: <a href="https://lionfari.github.io/videohunt-site">lionfari.github.io/videohunt-site</a></div>
+        </div>
+
+        <section id="grundprinzip"><h2>1. Grundprinzip</h2><p>VideoHunt besitzt kein eigenes Nutzerkonto, kein eigenes VideoHunt-Backend und keine Werbe-, Analyse- oder Tracking-SDKs. Die Kernverarbeitung findet lokal auf dem Android-Gerät statt.</p></section>
+        <section id="browser"><h2>2. Integrierter Browser</h2><p>Beim Öffnen einer öffentlichen Webseite stellt das Gerät direkte HTTPS-Verbindungen zu dieser Webseite und deren eingebundenen Diensten her. Deren Betreiber können technisch notwendige Verbindungsdaten wie IP-Adresse, User-Agent und dort gesetzte Cookies erhalten. VideoHunt kontrolliert den Inhalt des offenen Webs nicht. Browser-Cookies, WebStorage, Cache, Formulardaten und Verlauf werden beim Schließen des integrierten Browsers bereinigt und können zusätzlich in den Einstellungen gelöscht werden.</p></section>
+        <section id="erkennung"><h2>3. Medienerkennung</h2><p>Für eine vom Nutzer gewählte öffentliche Seite kann VideoHunt Medienadressen lokal analysieren und direkte HTTPS-Anfragen an die jeweilige Zielplattform senden. Dabei können Quell-URL, User-Agent und – soweit für dieselbe Herkunft erforderlich – Cookies oder Request-Header verwendet werden. Diese Daten werden nicht an ein VideoHunt-Backend gesendet. Nicht öffentliche Netzwerkziele werden durch lokale Zielschutzregeln blockiert. DRM/Widevine, Logins, Paywalls, Geoblocking und proprietäre Verschlüsselung werden nicht umgangen; YouTube wird nicht unterstützt.</p></section>
+        <section id="downloads"><h2>4. Downloads und Resume-Daten</h2><p>Videos werden über Android MediaStore lokal gespeichert. Fortsetzbare Hintergrundaufträge können vorübergehend Medien-URLs, Referer, User-Agent, Cookies und Request-Header enthalten. Diese Resume-Daten liegen in noBackupFilesDir und sind mit AES-256-GCM unter Verwendung eines Android-Keystore-Schlüssels verschlüsselt. Erfolgreiche Aufgaben werden entfernt; fehlgeschlagene Aufgaben verfallen typischerweise nach höchstens 48 Stunden, fortsetzbare Aufgaben nach höchstens sieben Tagen.</p></section>
+        <section id="diagnosen"><h2>5. Diagnosen</h2><p>Für eng begrenzte fehlgeschlagene Social-DASH-Fälle können redigierte lokale Diagnosearchive entstehen. Sie enthalten keine vollständigen Cookies, Tokens oder Mediendaten. Sie werden nur dann übertragen, wenn der Nutzer selbst die Android-Teilen-Funktion auswählt.</p></section>
+        <section id="sicherheit"><h2>6. Berechtigungen und Sicherheit</h2><p>VideoHunt benötigt Internet-/Netzwerkstatuszugriff sowie Berechtigungen für Benachrichtigungen und Foreground Services während Downloads. Standort, Kamera, Mikrofon, Kontakte, Kalender, Telefon/SMS, Bluetooth und Werbe-ID werden nicht angefordert. Cleartext-HTTP ist deaktiviert. Android-Cloud-Backup und Geräteübertragung interner App-Daten sind deaktiviert.</p></section>
+        <section id="aufbewahrung"><h2>7. Löschung und Aufbewahrung</h2><p>Browserdaten werden beim Schließen des integrierten Browsers bereinigt und können zusätzlich in den Einstellungen gelöscht werden. Downloadhistorie kann separat entfernt werden. Resume- und Diagnoseinformationen werden nach Abschluss bzw. nach den beschriebenen Fristen entfernt. Da VideoHunt kein eigenes Konto oder Backend betreibt, gibt es keine serverseitigen Kontodaten zu löschen.</p></section>
+        <section id="drittanbieter"><h2>8. Drittanbieter</h2><p>Beim Aufruf fremder Webseiten gelten deren eigene Datenschutzbestimmungen. VideoHunt ist nicht mit Instagram, TikTok, Facebook, Vimeo, Reddit, X oder anderen Zielplattformen verbunden oder von ihnen autorisiert.</p></section>
+        <section id="kontakt"><h2>9. Kontakt</h2><p>Datenschutzanfragen: <a href="mailto:VideoHuntDev@gmail.com">VideoHuntDev@gmail.com</a>.</p></section>
+      </div>
+
+      <aside class="side-nav" aria-label="Inhalt der Datenschutzerklärung">
+        <strong>Auf dieser Seite</strong>
+        <a href="#grundprinzip">Grundprinzip</a><a href="#browser">Integrierter Browser</a><a href="#erkennung">Medienerkennung</a><a href="#downloads">Downloads &amp; Resume</a><a href="#diagnosen">Diagnosen</a><a href="#sicherheit">Sicherheit</a><a href="#aufbewahrung">Aufbewahrung</a><a href="#drittanbieter">Drittanbieter</a><a href="#kontakt">Kontakt</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-inner"><div><div class="footer-brand"><span>Video</span><strong>Hunt</strong></div><div class="copyright">© 2026 Lion Mehl · VideoHunt</div></div><nav class="footer-links"><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><a href="kontakt.html">Kontakt</a></nav></div></footer>
+</body>
+</html>
