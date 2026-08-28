@@ -29,3 +29,15 @@ a{color:var(--blue);text-underline-offset:3px}
 @media(max-width:860px){.legal-grid{grid-template-columns:1fr}.side-nav{position:static;display:none}}
 @media(max-width:720px){.site-header{position:static}.header-inner{align-items:flex-start;flex-direction:column;padding:18px 0;gap:13px}.site-nav{width:100%;overflow-x:auto}.site-nav a{white-space:nowrap}.legal-main{padding-top:44px}.legal-hero{grid-template-columns:1fr}.meta-pill{justify-self:start}.footer-inner{align-items:flex-start;flex-direction:column}}
 @media(max-width:520px){.shell{width:min(100% - 30px,1040px)}.legal-hero h1{font-size:clamp(2.7rem,15vw,3.6rem)}.card{padding:22px 20px;border-radius:22px}.identity-card{grid-template-columns:1fr}.contact-actions{flex-direction:column}.button{width:100%}}
+/* Privacy polish: keep personal provider data legally reachable but visually secondary. */
+.provider-section{margin-top:72px;padding-top:28px;border-top:1px solid var(--line)}
+.subtle-label{margin:0 0 12px;color:#94969b;font-size:.7rem;font-weight:780;letter-spacing:.11em}
+.provider-muted{max-width:620px;padding:19px 21px;border:1px solid #e7e7e2;border-radius:19px;background:#f6f6f2;color:#777a80;font-size:.88rem;line-height:1.65;box-shadow:none}
+.provider-muted strong{color:#64676d;font-weight:720}
+.provider-muted a{color:#646d80}
+.contact-card{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+.contact-card strong{color:var(--navy-deep);font-size:1.05rem}
+.contact-card p{margin:.45rem 0;color:#6f7278}
+.contact-mail{display:inline-block;margin-top:5px;font-weight:720}
+.legal-reference{margin-top:18px!important;font-size:.82rem!important;color:#8a8c91!important}
+@media(max-width:520px){.provider-section{margin-top:56px;padding-top:24px}.provider-muted{padding:17px 18px}.contact-card{grid-template-columns:1fr}}
